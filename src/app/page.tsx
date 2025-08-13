@@ -42,7 +42,7 @@ export default function Home() {
   const filmesFiltrados = filmes.filter((filme) =>
     filme.titulo.toLowerCase().includes(termoPesquisa.toLowerCase())
   );
-
+// 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-500 via-purple-600 to-violet-700">
       <Header />
