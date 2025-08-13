@@ -1,6 +1,6 @@
 'use client';
 
-import { Film, Settings } from 'lucide-react';
+import { Film } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Header() {
