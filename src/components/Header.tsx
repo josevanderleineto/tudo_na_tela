@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-gradient-to-r from-pink-500 via-purple-600 to-violet-700 shadow-2xl">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Logdo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:bg-white/30 transition-all duration-300">
               <Film className="w-8 h-8 text-white" />
