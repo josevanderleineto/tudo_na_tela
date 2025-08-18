@@ -53,7 +53,7 @@ export default function Home() {
             Filmes Recentes
           </h2>
           <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
-            Descubra a lista dos  mais recentes e populares do momento.
+          Visualize os filmes e séries que foram adicionados recentemente ao nosso sistema
           </p>
         </div>
 

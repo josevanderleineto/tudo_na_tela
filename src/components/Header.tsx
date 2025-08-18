@@ -1,7 +1,7 @@
 'use client';
 
-import { Film } from 'lucide-react';
-import Link from 'next/link';
+ import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -10,8 +10,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logdo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 group-hover:bg-white/30 transition-all duration-300">
-              <Film className="w-8 h-8 text-white" />
+            <div className="backdrop-blur-sm rounded-full p-2 group-hover:bg-white/30 transition-all duration-300">
+              <Image
+                src="/logo.png"
+                alt="Logo Tudo na Tela"
+                width={40}
+                height={40}
+                className="w-10 h-10 object-cover rounded-full"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-yellow-300 group-hover:text-yellow-200 transition-colors duration-300">
@@ -24,7 +30,7 @@ export default function Header() {
           </Link>
 
           {/* Navegação */}
-          <nav className="hidden md:flex items-center gap-6">
+          {/* <nav className="hidden md:flex items-center gap-6">
             <Link
               href="/"
               className="text-white hover:text-yellow-300 transition-colors duration-300 font-medium"
@@ -32,7 +38,7 @@ export default function Header() {
               Início
             </Link>
              
-          </nav>
+          </nav> */}
 
           {/* Menu mobile */}
           <div className="md:hidden">
