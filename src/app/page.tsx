@@ -50,9 +50,9 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-6xl font-bold text-yellow-300 mb-4">
-            Filmes Recentes
+          Filmes e Séries Recentes
           </h2>
-          <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
+          <p className="text-white/90 text-lg text-xl max-w-2xl mx-auto">
           Visualize os filmes e séries que foram adicionados recentemente ao nosso sistema
           </p>
         </div>

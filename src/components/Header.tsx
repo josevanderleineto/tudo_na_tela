@@ -1,6 +1,6 @@
 'use client';
 
- import Link from 'next/link';
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Header() {
@@ -14,16 +14,16 @@ export default function Header() {
               <Image
                 src="/logo.png"
                 alt="Logo Tudo na Tela"
-                width={40}
-                height={40}
-                className="w-10 h-10 object-cover rounded-full"
+                width={60} // Aumentado de 40 para 60
+                height={60} // Aumentado de 40 para 60
+                className="w-14 h-14 object-cover rounded-full" // Atualizado de w-10 h-10 para w-14 h-14
               />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-yellow-300 group-hover:text-yellow-200 transition-colors duration-300">
                 Tudo na Tela
               </h1>
-              <p className="text-white/80 text-sm">
+              <p className="text-white/80 md:text-xl">
                 Os melhores filmes para você assistir além  de séries, animes, canais, notícias, esportes e muito mais!
               </p>
             </div>
@@ -49,4 +49,3 @@ export default function Header() {
     </header>
   );
 }
-
