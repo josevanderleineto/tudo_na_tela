@@ -13,10 +13,11 @@ export default function FilmeCard({ filme }: FilmeCardProps) {
 
   const handleWhatsAppClick = () => {
     const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '5571981902254';
-    const message = `Olá, gostaria de assistir o filme: ${filme.titulo}`;
+    const message = `Olá, gostaria de saber como funciona. Vim do site Tudo na Tela.`;
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
+  
 
   return (
     <div className="group relative bg-gradient-to-br from-pink-500 via-purple-600 to-violet-700 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105">
